@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   cloudflare-tunnel:
   - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-11-20T00:43:11.755127593Z"
+    description: Manage and use cloudflare tunnels (also known as argo tunnels) on
+      k8s cluster
+    digest: 83d61065ca53947ae066879b652932212560d40066afffb458abdaab9d0ea6b7
+    name: cloudflare-tunnel
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/cloudflare-tunnel-0.2.0/cloudflare-tunnel-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 2021.11.0
     created: "2021-11-29T18:40:11.378674174Z"
     description: Manage and use cloudflare tunnels (also known as argo tunnels) on
@@ -67,6 +78,29 @@ entries:
     urls:
     - https://github.com/rlex/helm-charts/releases/download/cloudflare-tunnel-0.1.0/cloudflare-tunnel-0.1.0.tgz
     version: 0.1.0
+  coroot:
+  - apiVersion: v2
+    appVersion: 0.7.1
+    created: "2022-11-20T00:43:11.939252098Z"
+    description: A monitoring and troubleshooting tool for microservice architectures.
+    digest: 9c325bc4d6c9089a0d6b1c6689a6f53effebd49df0403bacdadac4c0805d3fd0
+    name: coroot
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/coroot-0.6.0/coroot-0.6.0.tgz
+    version: 0.6.0
+  coroot-node-agent:
+  - apiVersion: v2
+    appVersion: 0.7.1
+    created: "2022-11-20T00:43:12.077242443Z"
+    description: A Prometheus exporter based on eBPF that gathers comprehensive container
+      metrics
+    digest: 81b571a713ba7142585a8a6e25fa12b3784b1ed5b7c229ab849ccd9495fbd34d
+    name: coroot-node-agent
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/coroot-node-agent-0.2.0/coroot-node-agent-0.2.0.tgz
+    version: 0.2.0
   flame:
   - apiVersion: v2
     appVersion: 2.1.1
@@ -330,7 +364,54 @@ entries:
     urls:
     - https://github.com/rlex/helm-charts/releases/download/freetakserver-1.0.1/freetakserver-1.0.1.tgz
     version: 1.0.1
+  grist:
+  - apiVersion: v2
+    appVersion: 0.7.9
+    created: "2022-11-20T00:43:12.22785149Z"
+    description: Combine the flexibility of a spreadsheet with the robustness of a
+      database to organize your data, your way.
+    digest: f75ee576e4d51b540ebc247d872937742d045312e5e47d3891c1d32bd7dce81f
+    name: grist
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/grist-0.1.0/grist-0.1.0.tgz
+    version: 0.1.0
+  hcloud-fip-controller:
+  - apiVersion: v2
+    appVersion: 0.4.1
+    created: "2022-11-20T00:43:12.357624184Z"
+    description: hcloud-fip-controller is a small controller, to handle floating IP
+      management in a kubernetes cluster on hetzner cloud virtual machines.
+    digest: 41b1c2e1ef6844651de2a2406c8ba5a01d7de531137cf5a18479e73ed1cf375b
+    name: hcloud-fip-controller
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/hcloud-fip-controller-0.2.5/hcloud-fip-controller-0.2.5.tgz
+    version: 0.2.5
+  jsonvisio:
+  - apiVersion: v2
+    appVersion: 1.9.5
+    created: "2022-11-20T00:43:12.497759399Z"
+    description: Seamlessly visualize your JSON data instantly into graphs; paste,
+      import or fetch!
+    digest: 608615db569b7597378aaa5ec3e71e0124dd0c08f443af5dad0662b2387bbe18
+    name: jsonvisio
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/jsonvisio-0.1.0/jsonvisio-0.1.0.tgz
+    version: 0.1.0
   kube-resource-report:
+  - apiVersion: v1
+    appVersion: 0.5.6
+    created: "2022-11-20T00:43:12.646324684Z"
+    description: Report Kubernetes cluster and pod resource requests vs usage and
+      generate static HTML
+    digest: 10480531bab3a8596b45d22aa3ad358d92695be90645ecc73879fba6bc752c07
+    home: https://codeberg.org/hjacobs/kube-resource-report
+    name: kube-resource-report
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/kube-resource-report-0.9.0/kube-resource-report-0.9.0.tgz
+    version: 0.9.0
   - apiVersion: v1
     appVersion: 21.10.0
     created: "2021-12-13T18:30:43.09832827Z"
@@ -377,6 +458,16 @@ entries:
     version: 0.7.0
   kube-web-view:
   - apiVersion: v2
+    appVersion: 22.9.0
+    created: "2022-11-20T00:43:12.789531643Z"
+    description: Kubernetes Web View to list and view all Kubernetes resources
+    digest: 0218c7eba6c81adae452cb55fd67a2c799c6f2b062d5d9b93afe44911a722380
+    name: kube-web-view
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/kube-web-view-0.2.0/kube-web-view-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 21.2.0
     created: "2021-10-10T19:48:15.469664368Z"
     description: Kubernetes Web View to list and view all Kubernetes resources
@@ -407,6 +498,17 @@ entries:
     - https://github.com/rlex/helm-charts/releases/download/kube-web-view-0.1.0/kube-web-view-0.1.0.tgz
     version: 0.1.0
   kubernetes-diff-logger:
+  - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2022-11-20T00:43:12.942238156Z"
+    description: This simple application by grafana labs is designed to watch Kubernetes
+      objects and log diffs when they occur
+    digest: 0aeaa3149086a71a3f5f675edd02d0a19423253e6047d9487fb52a36b131642d
+    name: kubernetes-diff-logger
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/kubernetes-diff-logger-0.1.2/kubernetes-diff-logger-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 0.0.5
     created: "2022-02-11T15:20:18.375385487Z"
@@ -646,6 +748,16 @@ entries:
     version: 0.0.2
   pyrra:
   - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-11-20T00:43:13.077708501Z"
+    description: SLO manager and alert generator
+    digest: 2203527604ab49596be5768a784695e86a18a4822788f0603ba357dc4dc9a982
+    name: pyrra
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/pyrra-0.3.0/pyrra-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: v0.3.3
     created: "2022-02-10T21:17:08.879518235Z"
     description: Making SLOs with Prometheus manageable, accessible, and easy to use
@@ -699,7 +811,43 @@ entries:
     urls:
     - https://github.com/rlex/helm-charts/releases/download/pyrra-0.1.0/pyrra-0.1.0.tgz
     version: 0.1.0
+  runtimeclass-controller:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-11-20T00:43:13.224022507Z"
+    description: A Helm chart for Kubernetes
+    digest: 27d7fb209fc8285be791cab170a40369e7c5a549a9f7db9e59986f444615945f
+    name: runtimeclass-controller
+    sources:
+    - https://github.com/jlclx/runtimeclass-controller
+    - https://github.com/rlex/helm-charts
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/runtimeclass-controller-0.1.0/runtimeclass-controller-0.1.0.tgz
+    version: 0.1.0
   yopass:
+  - apiVersion: v2
+    appVersion: 11.4.5
+    created: "2022-11-20T00:43:13.395601317Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.2.3
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.1.2
+    description: Secure sharing for secrets, passwords and files
+    digest: 221c1d428f25b7596299a47d7a2f704f8011fd4f648e51f9c7cc2938d061cba2
+    home: https://github.com/jhaals/yopass
+    name: yopass
+    sources:
+    - https://github.com/rlex/helm-charts
+    type: application
+    urls:
+    - https://github.com/Danpiel/helm-charts/releases/download/yopass-0.5.0/yopass-0.5.0.tgz
+    version: 0.5.0
   - apiVersion: v2
     appVersion: 11.4.1
     created: "2022-02-10T21:14:06.540939351Z"
@@ -864,4 +1012,4 @@ entries:
     urls:
     - https://github.com/rlex/helm-charts/releases/download/yopass-0.1.2/yopass-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-11T15:20:18.375509691Z"
+generated: "2022-11-20T00:43:13.396025151Z"
